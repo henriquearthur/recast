@@ -2,6 +2,8 @@
 
 Turn YouTube videos into articles you can read instead of watch.
 
+![Recast home page with the latest article, and an article page with its summary, sections, and generation cost](docs/images/recast.webp)
+
 Recast follows the YouTube channels you choose. When one of them publishes a video, Recast downloads the audio, transcribes it on your own machine with [whisper.cpp](https://github.com/ggml-org/whisper.cpp), has an AI model write an article from the transcript, and sends it to your inbox. You can also paste any video link by hand.
 
 It is self-hosted and single-user: a small Bun server with a web interface and a SQLite database, running on your computer or home server.
