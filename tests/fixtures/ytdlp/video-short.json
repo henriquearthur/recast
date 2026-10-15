@@ -1,0 +1,447 @@
+{
+  "id": "8Xv5BLnXzgI",
+  "title": "🧾 Building a voice-to-print mirror with Gemini",
+  "formats": [
+    {
+      "format_id": "sb2",
+      "format_note": "storyboard",
+      "ext": "mhtml",
+      "protocol": "mhtml",
+      "acodec": "none",
+      "vcodec": "none",
+      "url": "https://i.ytimg.com/sb/8Xv5BLnXzgI/storyboard3_L1/M$M.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCL6k6tUG&sigh=rs$AOn4CLBygz3rr2ANYPPATKHnLNR5Lxu7Pg",
+      "width": 25,
+      "height": 45,
+      "fps": 1.0625,
+      "rows": 10,
+      "columns": 10,
+      "fragments": [
+        {
+          "url": "https://i.ytimg.com/sb/8Xv5BLnXzgI/storyboard3_L1/M0.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCL6k6tUG&sigh=rs$AOn4CLBygz3rr2ANYPPATKHnLNR5Lxu7Pg",
+          "duration": 16.0
+        }
+      ],
+      "audio_ext": "none",
+      "video_ext": "none",
+      "vbr": 0,
+      "abr": 0,
+      "tbr": null,
+      "resolution": "25x45",
+      "aspect_ratio": 0.56,
+      "filesize_approx": null,
+      "http_headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-us,en;q=0.5",
+        "Sec-Fetch-Mode": "navigate"
+      },
+      "format": "sb2 - 25x45 (storyboard)"
+    },
+    {
+      "format_id": "sb3",
+      "format_note": "storyboard",
+      "ext": "mhtml",
+      "protocol": "mhtml",
+      "acodec": "none",
+      "vcodec": "none",
+      "url": "https://i.ytimg.com/sb/8Xv5BLnXzgI/storyboard3_L0/default.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCL6k6tUG&sigh=rs$AOn4CLD5VsrTl_l-zYJLeYgJuCOTPSNDOw",
+      "width": 48,
+      "height": 27,
+      "fps": 6.25,
+      "rows": 10,
+      "columns": 10,
+      "fragments": [
+        {
+          "url": "https://i.ytimg.com/sb/8Xv5BLnXzgI/storyboard3_L0/default.jpg?sqp=-oaymwGhAUg48quKqQOYAYgBAZUBAAAEQpgBMqABPKgBBLIBQBANDBAVHyYtDg4PEhcrLCkPDhAVHyoyKQ8RFBgmPTgtERQeKjFLRzYVHCkuOUdNPyUuNz1HUlFFM0BCQ0xERkO6AUARERUjRENDQxETFi9DQ0NDFRYpQ0NDQ0MjL0NDQ0NDQ0RDQ0NDQ0JCQ0NDQ0NCQkJDQ0NDQkJCQkNDQ0JCQkJCovOX_wMGCL6k6tUG&sigh=rs$AOn4CLD5VsrTl_l-zYJLeYgJuCOTPSNDOw",
+          "duration": 16.0
+        }
+      ],
+      "audio_ext": "none",
+      "video_ext": "none",
+      "vbr": 0,
+      "abr": 0,
+      "tbr": null,
+      "resolution": "48x27",
+      "aspect_ratio": 1.78,
+      "filesize_approx": null,
+      "http_headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-us,en;q=0.5",
+        "Sec-Fetch-Mode": "navigate"
+      },
+      "format": "sb3 - 48x27 (storyboard)"
+    }
+  ],
+  "thumbnails": [
+    {
+      "url": "https://i.ytimg.com/vi/8Xv5BLnXzgI/3.jpg",
+      "preference": -37,
+      "id": "0"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/8Xv5BLnXzgI/3.webp",
+      "preference": -36,
+      "id": "1"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/8Xv5BLnXzgI/2.jpg",
+      "preference": -35,
+      "id": "2"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/8Xv5BLnXzgI/2.webp",
+      "preference": -34,
+      "id": "3"
+    },
+    {
+      "_trimmed": true
+    }
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/8Xv5BLnXzgI/maxresdefault.jpg",
+  "description": "Gayatri built a custom journaling device using Nano Banana and Gemini through Antigravity and Google AI Studio to transform spoken memories into physical keepsakes.\n\n🔗 Explore the build → https://goo.gle/4z2vI3I \n\n\nSubscribe to Google for Developers → https://goo.gle/developers   \n\n\nProducts Mentioned: Gemini, Google Antigravity, Google AI Studio\nSpeaker: Gayatri Kalra",
+  "channel_id": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+  "channel_url": "https://www.youtube.com/channel/UC_x5XG1OV2P6uZZ5FSM9Ttw",
+  "duration": 16,
+  "view_count": 13626,
+  "average_rating": null,
+  "age_limit": 0,
+  "webpage_url": "https://www.youtube.com/watch?v=8Xv5BLnXzgI",
+  "categories": [
+    "Science & Technology"
+  ],
+  "tags": [
+    "Google",
+    "developers"
+  ],
+  "playable_in_embed": true,
+  "live_status": "not_live",
+  "media_type": "short",
+  "release_timestamp": null,
+  "_format_sort_fields": [
+    "quality",
+    "res",
+    "fps",
+    "hdr:12",
+    "source",
+    "vcodec",
+    "channels",
+    "acodec",
+    "lang",
+    "proto"
+  ],
+  "automatic_captions": {
+    "_trimmed": true
+  },
+  "subtitles": {
+    "en": [
+      {
+        "ext": "json3",
+        "url": "https://www.youtube.com/api/timedtext?v=8Xv5BLnXzgI&ei=PgfFavK8If-j-LAP56_tiQc&caps=asr&opi=112496729&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1791322542&sparams=ip%2Cipbits%2Cexpire%2Cv%2Cei%2Ccaps%2Copi%2Cxoaf&signature=BE68E194F57337321C1308BC65060B3DEB4E8687.6755DFC441011E1BDBA74EC1A6E79D0997D9EF84&key=yt8&lang=en&fmt=json3",
+        "name": "English",
+        "impersonate": true,
+        "__yt_dlp_client": "android_vr"
+      },
+      {
+        "ext": "srv1",
+        "url": "https://www.youtube.com/api/timedtext?v=8Xv5BLnXzgI&ei=PgfFavK8If-j-LAP56_tiQc&caps=asr&opi=112496729&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1791322542&sparams=ip%2Cipbits%2Cexpire%2Cv%2Cei%2Ccaps%2Copi%2Cxoaf&signature=BE68E194F57337321C1308BC65060B3DEB4E8687.6755DFC441011E1BDBA74EC1A6E79D0997D9EF84&key=yt8&lang=en&fmt=srv1",
+        "name": "English",
+        "impersonate": true,
+        "__yt_dlp_client": "android_vr"
+      },
+      {
+        "ext": "srv2",
+        "url": "https://www.youtube.com/api/timedtext?v=8Xv5BLnXzgI&ei=PgfFavK8If-j-LAP56_tiQc&caps=asr&opi=112496729&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1791322542&sparams=ip%2Cipbits%2Cexpire%2Cv%2Cei%2Ccaps%2Copi%2Cxoaf&signature=BE68E194F57337321C1308BC65060B3DEB4E8687.6755DFC441011E1BDBA74EC1A6E79D0997D9EF84&key=yt8&lang=en&fmt=srv2",
+        "name": "English",
+        "impersonate": true,
+        "__yt_dlp_client": "android_vr"
+      },
+      {
+        "ext": "srv3",
+        "url": "https://www.youtube.com/api/timedtext?v=8Xv5BLnXzgI&ei=PgfFavK8If-j-LAP56_tiQc&caps=asr&opi=112496729&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1791322542&sparams=ip%2Cipbits%2Cexpire%2Cv%2Cei%2Ccaps%2Copi%2Cxoaf&signature=BE68E194F57337321C1308BC65060B3DEB4E8687.6755DFC441011E1BDBA74EC1A6E79D0997D9EF84&key=yt8&lang=en&fmt=srv3",
+        "name": "English",
+        "impersonate": true,
+        "__yt_dlp_client": "android_vr"
+      },
+      {
+        "ext": "ttml",
+        "url": "https://www.youtube.com/api/timedtext?v=8Xv5BLnXzgI&ei=PgfFavK8If-j-LAP56_tiQc&caps=asr&opi=112496729&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1791322542&sparams=ip%2Cipbits%2Cexpire%2Cv%2Cei%2Ccaps%2Copi%2Cxoaf&signature=BE68E194F57337321C1308BC65060B3DEB4E8687.6755DFC441011E1BDBA74EC1A6E79D0997D9EF84&key=yt8&lang=en&fmt=ttml",
+        "name": "English",
+        "impersonate": true,
+        "__yt_dlp_client": "android_vr"
+      },
+      {
+        "ext": "srt",
+        "url": "https://www.youtube.com/api/timedtext?v=8Xv5BLnXzgI&ei=PgfFavK8If-j-LAP56_tiQc&caps=asr&opi=112496729&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1791322542&sparams=ip%2Cipbits%2Cexpire%2Cv%2Cei%2Ccaps%2Copi%2Cxoaf&signature=BE68E194F57337321C1308BC65060B3DEB4E8687.6755DFC441011E1BDBA74EC1A6E79D0997D9EF84&key=yt8&lang=en&fmt=srt",
+        "name": "English",
+        "impersonate": true,
+        "__yt_dlp_client": "android_vr"
+      },
+      {
+        "ext": "vtt",
+        "url": "https://www.youtube.com/api/timedtext?v=8Xv5BLnXzgI&ei=PgfFavK8If-j-LAP56_tiQc&caps=asr&opi=112496729&xoaf=5&xowf=1&xospf=1&hl=en&ip=0.0.0.0&ipbits=0&expire=1791322542&sparams=ip%2Cipbits%2Cexpire%2Cv%2Cei%2Ccaps%2Copi%2Cxoaf&signature=BE68E194F57337321C1308BC65060B3DEB4E8687.6755DFC441011E1BDBA74EC1A6E79D0997D9EF84&key=yt8&lang=en&fmt=vtt",
+        "name": "English",
+        "impersonate": true,
+        "__yt_dlp_client": "android_vr"
+      }
+    ]
+  },
+  "comment_count": 5,
+  "chapters": null,
+  "heatmap": null,
+  "like_count": 216,
+  "channel": "Google for Developers",
+  "channel_follower_count": 2680000,
+  "creators": null,
+  "channel_is_verified": true,
+  "uploader": "Google for Developers",
+  "uploader_id": "@GoogleDevelopers",
+  "uploader_url": "https://www.youtube.com/@GoogleDevelopers",
+  "upload_date": "20261001",
+  "timestamp": 1790895621,
+  "availability": "public",
+  "original_url": "https://www.youtube.com/watch?v=8Xv5BLnXzgI",
+  "webpage_url_basename": "watch",
+  "webpage_url_domain": "youtube.com",
+  "extractor": "youtube",
+  "extractor_key": "Youtube",
+  "playlist": null,
+  "playlist_index": null,
+  "display_id": "8Xv5BLnXzgI",
+  "fulltitle": "🧾 Building a voice-to-print mirror with Gemini",
+  "duration_string": "16",
+  "release_year": null,
+  "is_live": false,
+  "was_live": false,
+  "requested_subtitles": null,
+  "_has_drm": null,
+  "epoch": 1791297348,
+  "requested_downloads": [
+    {
+      "requested_formats": [
+        {
+          "asr": null,
+          "filesize": 2895792,
+          "format_id": "399",
+          "format_note": "1080p",
+          "source_preference": -1,
+          "fps": 24,
+          "audio_channels": null,
+          "height": 1920,
+          "quality": 9.0,
+          "has_drm": false,
+          "tbr": 1450.252,
+          "filesize_approx": 2895790,
+          "width": 1080,
+          "language": null,
+          "language_preference": -1,
+          "preference": null,
+          "ext": "mp4",
+          "vcodec": "av01.0.08M.08",
+          "acodec": "none",
+          "dynamic_range": "SDR",
+          "container": "mp4_dash",
+          "url": "https://rr2---sn-bg0s7n7l.googlevideo.com/videoplayback?expire=1791318942&ei=PgfFavK8If-j-LAP56_tiQc&ip=2607%3Af740%3A81%3Ab1c4%3Ad76a%3A4049%3A408d%3A3543&id=o-AHvtns9Efx0_W5Te4xYz5_HANswPdWwVr8Q8qLOZPPcm&itag=399&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&cps=170&met=1791297342%2C&mh=AP&mm=31%2C29&mn=sn-bg0s7n7l%2Csn-bg0e6n7y&ms=au%2Crdu&mv=m&mvi=2&pl=44&rms=au%2Cau&initcwndbps=7115625&bui=AWzQHwr7lVSGrNEUvIxrYm-w7wiAEQfXUmi8l1RUM9QenqNTDQKKrq7GZYv-sVwJzliso4zoIyPO_mOW&spc=I-rgIYEQRNoCRAeDut5EiSljQXCFFuSliF7st_zmic4e&vprv=1&svpuc=1&mime=video%2Fmp4&rqh=1&gir=yes&clen=2895792&dur=15.974&lmt=1790906924112988&mt=1791296733&fvip=3&keepalive=yes&fexp=51565116%2C52112905%2C52250513&c=ANDROID_VR&txp=540C234&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AE0s2JYwRAIgOamjI40VBluCWPbKhMzRvJw675PSAhYh2ZksYaRYT7ACIA5YRTuVqi0DP6M1gEkQXSh4cXn1mLSU-2_0ocYyy2o5&lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRQIhALrChwZdNudcIfTk9BtkgTXSn4I2_aEtYSFKuocJSHC6AiAwwqG1LKri6rjzYbNRQcikhYx-x0DKPg-85X8gn7v-_Q%3D%3D",
+          "available_at": 1791297342,
+          "downloader_options": {
+            "http_chunk_size": 10485760
+          },
+          "protocol": "https",
+          "video_ext": "mp4",
+          "audio_ext": "none",
+          "abr": 0,
+          "vbr": 1450.252,
+          "resolution": "1080x1920",
+          "aspect_ratio": 0.56,
+          "http_headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+            "Accept-Language": "en-us,en;q=0.5",
+            "Sec-Fetch-Mode": "navigate"
+          },
+          "format": "399 - 1080x1920 (1080p)"
+        },
+        {
+          "asr": 48000,
+          "filesize": 273061,
+          "format_id": "251",
+          "format_note": "English (US) original (default), medium",
+          "source_preference": -1,
+          "fps": null,
+          "audio_channels": 2,
+          "height": null,
+          "quality": 3.0,
+          "has_drm": false,
+          "tbr": 136.521,
+          "filesize_approx": 273059,
+          "width": null,
+          "language": "en-US",
+          "language_preference": 10,
+          "preference": null,
+          "ext": "webm",
+          "vcodec": "none",
+          "acodec": "opus",
+          "dynamic_range": null,
+          "container": "webm_dash",
+          "url": "https://rr2---sn-bg0s7n7l.googlevideo.com/videoplayback?expire=1791318942&ei=PgfFavK8If-j-LAP56_tiQc&ip=2607%3Af740%3A81%3Ab1c4%3Ad76a%3A4049%3A408d%3A3543&id=o-AHvtns9Efx0_W5Te4xYz5_HANswPdWwVr8Q8qLOZPPcm&itag=251&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&cps=170&met=1791297342%2C&mh=AP&mm=31%2C29&mn=sn-bg0s7n7l%2Csn-bg0e6n7y&ms=au%2Crdu&mv=m&mvi=2&pl=44&rms=au%2Cau&initcwndbps=7115625&bui=AWzQHwr7lVSGrNEUvIxrYm-w7wiAEQfXUmi8l1RUM9QenqNTDQKKrq7GZYv-sVwJzliso4zoIyPO_mOW&spc=I-rgIYEQRNoCRAeDut5EiSljQXCFFuSliF7st_zmic4e&vprv=1&svpuc=1&xtags=acont%3Doriginal%3Alang%3Den-US&mime=audio%2Fwebm&rqh=1&gir=yes&clen=273061&dur=16.001&lmt=1790611997423059&mt=1791296733&fvip=3&keepalive=yes&fexp=51565116%2C52112905%2C52250513&c=ANDROID_VR&txp=6308224&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cxtags%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AE0s2JYwRQIhAOI4yEH65oVSAUGP7ZDQIs5vdfk-PQ7KTaLzlv1cD_ZbAiBHGYFRBBuU9Eek7NT8Dvs0QdS9oeqKv82BQv5rMZQODw%3D%3D&lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRQIhALrChwZdNudcIfTk9BtkgTXSn4I2_aEtYSFKuocJSHC6AiAwwqG1LKri6rjzYbNRQcikhYx-x0DKPg-85X8gn7v-_Q%3D%3D",
+          "available_at": 1791297342,
+          "downloader_options": {
+            "http_chunk_size": 10485760
+          },
+          "protocol": "https",
+          "audio_ext": "webm",
+          "video_ext": "none",
+          "vbr": 0,
+          "abr": 136.521,
+          "resolution": "audio only",
+          "aspect_ratio": null,
+          "http_headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+            "Accept-Language": "en-us,en;q=0.5",
+            "Sec-Fetch-Mode": "navigate"
+          },
+          "format": "251 - audio only (English (US) original (default), medium)"
+        }
+      ],
+      "format": "399 - 1080x1920 (1080p)+251 - audio only (English (US) original (default), medium)",
+      "format_id": "399+251",
+      "ext": "webm",
+      "protocol": "https+https",
+      "language": "en-US",
+      "format_note": "1080p+English (US) original (default), medium",
+      "filesize_approx": 3168853,
+      "tbr": 1586.773,
+      "width": 1080,
+      "height": 1920,
+      "resolution": "1080x1920",
+      "fps": 24,
+      "dynamic_range": "SDR",
+      "vcodec": "av01.0.08M.08",
+      "vbr": 1450.252,
+      "aspect_ratio": 0.56,
+      "acodec": "opus",
+      "abr": 136.521,
+      "asr": 48000,
+      "audio_channels": 2,
+      "_filename": "🧾 Building a voice-to-print mirror with Gemini [8Xv5BLnXzgI].webm",
+      "filename": "🧾 Building a voice-to-print mirror with Gemini [8Xv5BLnXzgI].webm",
+      "__write_download_archive": false
+    }
+  ],
+  "requested_formats": [
+    {
+      "asr": null,
+      "filesize": 2895792,
+      "format_id": "399",
+      "format_note": "1080p",
+      "source_preference": -1,
+      "fps": 24,
+      "audio_channels": null,
+      "height": 1920,
+      "quality": 9.0,
+      "has_drm": false,
+      "tbr": 1450.252,
+      "filesize_approx": 2895790,
+      "width": 1080,
+      "language": null,
+      "language_preference": -1,
+      "preference": null,
+      "ext": "mp4",
+      "vcodec": "av01.0.08M.08",
+      "acodec": "none",
+      "dynamic_range": "SDR",
+      "container": "mp4_dash",
+      "url": "https://rr2---sn-bg0s7n7l.googlevideo.com/videoplayback?expire=1791318942&ei=PgfFavK8If-j-LAP56_tiQc&ip=2607%3Af740%3A81%3Ab1c4%3Ad76a%3A4049%3A408d%3A3543&id=o-AHvtns9Efx0_W5Te4xYz5_HANswPdWwVr8Q8qLOZPPcm&itag=399&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&cps=170&met=1791297342%2C&mh=AP&mm=31%2C29&mn=sn-bg0s7n7l%2Csn-bg0e6n7y&ms=au%2Crdu&mv=m&mvi=2&pl=44&rms=au%2Cau&initcwndbps=7115625&bui=AWzQHwr7lVSGrNEUvIxrYm-w7wiAEQfXUmi8l1RUM9QenqNTDQKKrq7GZYv-sVwJzliso4zoIyPO_mOW&spc=I-rgIYEQRNoCRAeDut5EiSljQXCFFuSliF7st_zmic4e&vprv=1&svpuc=1&mime=video%2Fmp4&rqh=1&gir=yes&clen=2895792&dur=15.974&lmt=1790906924112988&mt=1791296733&fvip=3&keepalive=yes&fexp=51565116%2C52112905%2C52250513&c=ANDROID_VR&txp=540C234&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AE0s2JYwRAIgOamjI40VBluCWPbKhMzRvJw675PSAhYh2ZksYaRYT7ACIA5YRTuVqi0DP6M1gEkQXSh4cXn1mLSU-2_0ocYyy2o5&lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRQIhALrChwZdNudcIfTk9BtkgTXSn4I2_aEtYSFKuocJSHC6AiAwwqG1LKri6rjzYbNRQcikhYx-x0DKPg-85X8gn7v-_Q%3D%3D",
+      "available_at": 1791297342,
+      "downloader_options": {
+        "http_chunk_size": 10485760
+      },
+      "protocol": "https",
+      "video_ext": "mp4",
+      "audio_ext": "none",
+      "abr": 0,
+      "vbr": 1450.252,
+      "resolution": "1080x1920",
+      "aspect_ratio": 0.56,
+      "http_headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-us,en;q=0.5",
+        "Sec-Fetch-Mode": "navigate"
+      },
+      "format": "399 - 1080x1920 (1080p)"
+    },
+    {
+      "asr": 48000,
+      "filesize": 273061,
+      "format_id": "251",
+      "format_note": "English (US) original (default), medium",
+      "source_preference": -1,
+      "fps": null,
+      "audio_channels": 2,
+      "height": null,
+      "quality": 3.0,
+      "has_drm": false,
+      "tbr": 136.521,
+      "filesize_approx": 273059,
+      "width": null,
+      "language": "en-US",
+      "language_preference": 10,
+      "preference": null,
+      "ext": "webm",
+      "vcodec": "none",
+      "acodec": "opus",
+      "dynamic_range": null,
+      "container": "webm_dash",
+      "url": "https://rr2---sn-bg0s7n7l.googlevideo.com/videoplayback?expire=1791318942&ei=PgfFavK8If-j-LAP56_tiQc&ip=2607%3Af740%3A81%3Ab1c4%3Ad76a%3A4049%3A408d%3A3543&id=o-AHvtns9Efx0_W5Te4xYz5_HANswPdWwVr8Q8qLOZPPcm&itag=251&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&cps=170&met=1791297342%2C&mh=AP&mm=31%2C29&mn=sn-bg0s7n7l%2Csn-bg0e6n7y&ms=au%2Crdu&mv=m&mvi=2&pl=44&rms=au%2Cau&initcwndbps=7115625&bui=AWzQHwr7lVSGrNEUvIxrYm-w7wiAEQfXUmi8l1RUM9QenqNTDQKKrq7GZYv-sVwJzliso4zoIyPO_mOW&spc=I-rgIYEQRNoCRAeDut5EiSljQXCFFuSliF7st_zmic4e&vprv=1&svpuc=1&xtags=acont%3Doriginal%3Alang%3Den-US&mime=audio%2Fwebm&rqh=1&gir=yes&clen=273061&dur=16.001&lmt=1790611997423059&mt=1791296733&fvip=3&keepalive=yes&fexp=51565116%2C52112905%2C52250513&c=ANDROID_VR&txp=6308224&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cxtags%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AE0s2JYwRQIhAOI4yEH65oVSAUGP7ZDQIs5vdfk-PQ7KTaLzlv1cD_ZbAiBHGYFRBBuU9Eek7NT8Dvs0QdS9oeqKv82BQv5rMZQODw%3D%3D&lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRQIhALrChwZdNudcIfTk9BtkgTXSn4I2_aEtYSFKuocJSHC6AiAwwqG1LKri6rjzYbNRQcikhYx-x0DKPg-85X8gn7v-_Q%3D%3D",
+      "available_at": 1791297342,
+      "downloader_options": {
+        "http_chunk_size": 10485760
+      },
+      "protocol": "https",
+      "audio_ext": "webm",
+      "video_ext": "none",
+      "vbr": 0,
+      "abr": 136.521,
+      "resolution": "audio only",
+      "aspect_ratio": null,
+      "http_headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-us,en;q=0.5",
+        "Sec-Fetch-Mode": "navigate"
+      },
+      "format": "251 - audio only (English (US) original (default), medium)"
+    }
+  ],
+  "format": "399 - 1080x1920 (1080p)+251 - audio only (English (US) original (default), medium)",
+  "format_id": "399+251",
+  "ext": "webm",
+  "protocol": "https+https",
+  "language": "en-US",
+  "format_note": "1080p+English (US) original (default), medium",
+  "filesize_approx": 3168853,
+  "tbr": 1586.773,
+  "width": 1080,
+  "height": 1920,
+  "resolution": "1080x1920",
+  "fps": 24,
+  "dynamic_range": "SDR",
+  "vcodec": "av01.0.08M.08",
+  "vbr": 1450.252,
+  "stretched_ratio": null,
+  "aspect_ratio": 0.56,
+  "acodec": "opus",
+  "abr": 136.521,
+  "asr": 48000,
+  "audio_channels": 2,
+  "_type": "video",
+  "_version": {
+    "version": "2026.03.17",
+    "current_git_head": null,
+    "release_git_head": "04d6974f502bbdfaed72c624344f262e30ad9708",
+    "repository": "yt-dlp/yt-dlp"
+  },
+  "_trimmed_formats_original_count": 27
+}

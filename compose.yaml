@@ -1,0 +1,23 @@
+# Copy deploy/recast.env.example to .env and fill it in, then: docker compose up -d
+services:
+  recast:
+    build: .
+    image: recast
+    restart: unless-stopped
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      # Fixed inside the container; change the published port below instead.
+      RECAST_HOST: 0.0.0.0
+      RECAST_PORT: 4280
+      RECAST_DATA_DIR: /data
+    ports:
+      # Recast has no authentication, so it is published on this machine only.
+      # Use "4280:4280" to reach it from a trusted private network.
+      - "127.0.0.1:4280:4280"
+    volumes:
+      - recast-data:/data
+
+volumes:
+  recast-data:

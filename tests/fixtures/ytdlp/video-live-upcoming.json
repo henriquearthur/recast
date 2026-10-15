@@ -1,0 +1,105 @@
+{
+  "id": "dGSqblvgLIE",
+  "title": "NASA's SpaceX Crew-12 Undocking",
+  "formats": [],
+  "thumbnails": [
+    {
+      "url": "https://i.ytimg.com/vi/dGSqblvgLIE/3.jpg",
+      "preference": -37,
+      "id": "0"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/dGSqblvgLIE/3.webp",
+      "preference": -36,
+      "id": "1"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/dGSqblvgLIE/2.jpg",
+      "preference": -35,
+      "id": "2"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/dGSqblvgLIE/2.webp",
+      "preference": -34,
+      "id": "3"
+    },
+    {
+      "_trimmed": true
+    }
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/dGSqblvgLIE/maxresdefault.jpg",
+  "description": "Watch the four members of NASA's SpaceX Crew-12 mission — NASA astronauts Jessica Meir and Jack Hathaway, ESA (European Space Agency) astronaut Sophie Adenot, and Roscosmos cosmonaut Andrey Fedyaev — set off to return to Earth. The SpaceX Dragon spacecraft will undock from the International Space Station at approximately 8:05 a.m. EDT (1205 UTC). \n\nSplashdown is scheduled to occur off the coast of California on Thursday, Oct. 8 at 11:34 a.m. EDT (1534 UTC).\n\nDuring their nearly eight months aboard the space station, Crew-12 conducted hundreds of hours of scientific research. Their work included testing stem cell production for cell‑based therapies, examining how physical characteristics may affect blood flow during spaceflight, and demonstrating the on‑demand generation of IV fluid for future missions.\n \nLearn more about the Crew-12 mission: https://www.nasa.gov/mission/nasas-spacex-crew-12/\nFollow the latest Crew-12 updates: https://www.nasa.gov/blogs/crew-12/",
+  "channel_id": "UCLA_DiR1FfKNvjuUpBHmylQ",
+  "channel_url": "https://www.youtube.com/channel/UCLA_DiR1FfKNvjuUpBHmylQ",
+  "view_count": 0,
+  "average_rating": null,
+  "age_limit": 0,
+  "webpage_url": "https://www.youtube.com/watch?v=dGSqblvgLIE",
+  "categories": [
+    "Science & Technology"
+  ],
+  "tags": [],
+  "playable_in_embed": true,
+  "live_status": "is_upcoming",
+  "media_type": "livestream",
+  "release_timestamp": 1791384300,
+  "_format_sort_fields": [
+    "quality",
+    "res",
+    "fps",
+    "hdr:12",
+    "source",
+    "vcodec",
+    "channels",
+    "acodec",
+    "lang",
+    "proto"
+  ],
+  "automatic_captions": {},
+  "subtitles": {},
+  "comment_count": null,
+  "chapters": null,
+  "heatmap": null,
+  "like_count": 59,
+  "concurrent_view_count": 11,
+  "channel": "NASA",
+  "channel_follower_count": 15100000,
+  "creators": null,
+  "channel_is_verified": true,
+  "uploader": "NASA",
+  "uploader_id": "@NASA",
+  "uploader_url": "https://www.youtube.com/@NASA",
+  "upload_date": "20260930",
+  "timestamp": 1790784229,
+  "availability": "public",
+  "original_url": "https://www.youtube.com/watch?v=dGSqblvgLIE",
+  "webpage_url_basename": "watch",
+  "webpage_url_domain": "youtube.com",
+  "extractor": "youtube",
+  "extractor_key": "Youtube",
+  "playlist": null,
+  "playlist_index": null,
+  "display_id": "dGSqblvgLIE",
+  "fulltitle": "NASA's SpaceX Crew-12 Undocking",
+  "release_date": "20261007",
+  "release_year": 2026,
+  "is_live": false,
+  "was_live": false,
+  "requested_subtitles": null,
+  "_has_drm": null,
+  "epoch": 1791297403,
+  "requested_downloads": [
+    {
+      "_filename": "NASA's SpaceX Crew-12 Undocking [dGSqblvgLIE].NA",
+      "filename": "NASA's SpaceX Crew-12 Undocking [dGSqblvgLIE].NA",
+      "__write_download_archive": false
+    }
+  ],
+  "_type": "video",
+  "_version": {
+    "version": "2026.03.17",
+    "current_git_head": null,
+    "release_git_head": "04d6974f502bbdfaed72c624344f262e30ad9708",
+    "repository": "yt-dlp/yt-dlp"
+  }
+}

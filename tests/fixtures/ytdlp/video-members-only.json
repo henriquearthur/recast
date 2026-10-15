@@ -1,0 +1,133 @@
+{
+  "id": "w664JpkrDio",
+  "title": "Dimension 20: Dungeons and Drag Queens Trailer",
+  "formats": [],
+  "thumbnails": [
+    {
+      "url": "https://i.ytimg.com/vi/w664JpkrDio/3.jpg",
+      "preference": -37,
+      "id": "0"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/w664JpkrDio/3.webp",
+      "preference": -36,
+      "id": "1"
+    },
+    {
+      "url": "https://i.ytimg.com/vi/w664JpkrDio/2.jpg",
+      "preference": -35,
+      "id": "2"
+    },
+    {
+      "url": "https://i.ytimg.com/vi_webp/w664JpkrDio/2.webp",
+      "preference": -34,
+      "id": "3"
+    },
+    {
+      "_trimmed": true
+    }
+  ],
+  "thumbnail": "https://i.ytimg.com/vi/w664JpkrDio/maxresdefault.jpg",
+  "description": "Get ready to death drop into the underworld with your favorite queens. Premieres June 28th.\n\nWelcome to the CollegeHumor channel! Yes, we're still here (and still making videos). You can support us by signing up for DROPOUT.tv, our subscription video platform that features a ton of exclusive content and series for only $6/month (that's less than 17 cents a day). See tons of Um Actually, Game Changer, Dimension 20, Breaking News, Total Forgiveness, and more - all uncensored and with no ads! https://signup.dropout.tv\n\nAnd if you just love watching stuff on Youtube, you can instead become a member of our channel today [ http://bit.ly/2kpp0oz ] for access to OUR ENTIRE DROPOUT LIBRARY RIGHT HERE!\n\nIn the meantime, leave us some nice comments on this video. It's a good one, right?\n\nSign up for the Dropout newsletter here: https://newsletter.dropout.tv\n\nFOLLOW US EVERYWHERE:\nhttps://www.twitter.com/collegehumor\nhttps://www.instagram.com/collegehumor\nhttps://www.tiktok.com/@collegehumor\nhttps://www.facebook.com/collegehumor",
+  "channel_id": "UCPDXXXJj9nax0fr0Wfc048g",
+  "channel_url": "https://www.youtube.com/channel/UCPDXXXJj9nax0fr0Wfc048g",
+  "duration": 166,
+  "view_count": null,
+  "average_rating": null,
+  "age_limit": 0,
+  "webpage_url": "https://www.youtube.com/watch?v=w664JpkrDio",
+  "categories": [
+    "Comedy"
+  ],
+  "tags": [
+    "Collegehumor",
+    "comedy",
+    "humor",
+    "funny",
+    "dropout",
+    "improv comedy",
+    "dropout trailer",
+    "brennan lee mulligan",
+    "RPG",
+    "dungeons and dragons",
+    "magic",
+    "role playing",
+    "tabletop rpg",
+    "Dimension 20",
+    "Dungeons & Drag Queens",
+    "hell",
+    "bars/clubs",
+    "drag queens",
+    "adventures",
+    "revenge",
+    "witches",
+    "royalty",
+    "LGBTQ+",
+    "monét x change",
+    "jujubee",
+    "bob the drag queen",
+    "alaska thunderfuck 5000"
+  ],
+  "playable_in_embed": true,
+  "live_status": "not_live",
+  "media_type": "video",
+  "release_timestamp": null,
+  "_format_sort_fields": [
+    "quality",
+    "res",
+    "fps",
+    "hdr:12",
+    "source",
+    "vcodec",
+    "channels",
+    "acodec",
+    "lang",
+    "proto"
+  ],
+  "automatic_captions": {},
+  "subtitles": {},
+  "comment_count": null,
+  "chapters": null,
+  "heatmap": null,
+  "like_count": 713,
+  "channel": "Dropout",
+  "channel_follower_count": 15300000,
+  "creators": null,
+  "channel_is_verified": true,
+  "uploader": "Dropout",
+  "uploader_id": "@dropout",
+  "uploader_url": "https://www.youtube.com/@dropout",
+  "upload_date": "20230609",
+  "timestamp": 1686335109,
+  "availability": "subscriber_only",
+  "original_url": "https://www.youtube.com/watch?v=w664JpkrDio",
+  "webpage_url_basename": "watch",
+  "webpage_url_domain": "youtube.com",
+  "extractor": "youtube",
+  "extractor_key": "Youtube",
+  "playlist": null,
+  "playlist_index": null,
+  "display_id": "w664JpkrDio",
+  "fulltitle": "Dimension 20: Dungeons and Drag Queens Trailer",
+  "duration_string": "2:46",
+  "release_year": null,
+  "is_live": false,
+  "was_live": false,
+  "requested_subtitles": null,
+  "_has_drm": null,
+  "epoch": 1791297776,
+  "requested_downloads": [
+    {
+      "_filename": "Dimension 20： Dungeons and Drag Queens Trailer [w664JpkrDio].NA",
+      "filename": "Dimension 20： Dungeons and Drag Queens Trailer [w664JpkrDio].NA",
+      "__write_download_archive": false
+    }
+  ],
+  "_type": "video",
+  "_version": {
+    "version": "2026.03.17",
+    "current_git_head": null,
+    "release_git_head": "04d6974f502bbdfaed72c624344f262e30ad9708",
+    "repository": "yt-dlp/yt-dlp"
+  }
+}

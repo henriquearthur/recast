@@ -1,0 +1,11 @@
+[Unit]
+Description=Check origin/main for Recast updates every two minutes
+
+[Timer]
+OnBootSec=2min
+OnUnitInactiveSec=2min
+AccuracySec=15s
+Unit=recast-update.service
+
+[Install]
+WantedBy=timers.target

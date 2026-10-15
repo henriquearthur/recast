@@ -1,0 +1,384 @@
+{
+	"systeminfo": "WHISPER : VITISAI = 0 | COREML = 0 | OPENVINO = 0 | CUDA : ARCHS = 610 | CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | BMI2 = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "large",
+		"multilingual": true,
+		"vocab": 51866,
+		"audio": {
+			"ctx": 1500,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1280,
+			"head": 20,
+			"layer": 4
+		},
+		"mels": 128,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/home/example/.local/share/recast/models/ggml-large-v3-turbo.bin",
+		"language": "auto",
+		"translate": false
+	},
+	"result": {
+		"language": "pt"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:04,900"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 4900
+			},
+			"text": " conseguiu entender o que eles precisavam de fato desenvolver para atender as dores e"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:04,900",
+				"to": "00:00:06,400"
+			},
+			"offsets": {
+				"from": 4900,
+				"to": 6400
+			},
+			"text": " os requisitos daquelas agências."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:06,560",
+				"to": "00:00:10,900"
+			},
+			"offsets": {
+				"from": 6560,
+				"to": 10900
+			},
+			"text": " E aquele modelo de consultoria que a gente está acostumado, tradicional, onde fecha"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:10,900",
+				"to": "00:00:14,980"
+			},
+			"offsets": {
+				"from": 10900,
+				"to": 14980
+			},
+			"text": " o contrato com o cliente, chama o cliente para uma reunião, define os pré-requisitos"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:14,980",
+				"to": "00:00:18,720"
+			},
+			"offsets": {
+				"from": 14980,
+				"to": 18720
+			},
+			"text": " e tudo mais, depois só entrega a primeira versão, acabava não funcionando, porque"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:18,720",
+				"to": "00:00:22,840"
+			},
+			"offsets": {
+				"from": 18720,
+				"to": 22840
+			},
+			"text": " eles nem conseguiam definir os requisitos inicialmente, não tinham dados para testar"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:22,840",
+				"to": "00:00:26,380"
+			},
+			"offsets": {
+				"from": 22840,
+				"to": 26380
+			},
+			"text": " e não conseguiam entender de fato o que aquelas agências de inteligência estavam"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:26,380",
+				"to": "00:00:27,640"
+			},
+			"offsets": {
+				"from": 26380,
+				"to": 27640
+			},
+			"text": " trabalhando lá internamente."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:27,640",
+				"to": "00:00:32,260"
+			},
+			"offsets": {
+				"from": 27640,
+				"to": 32260
+			},
+			"text": " Então, por exemplo, um analista da CIA não podia compartilhar uma planilha com dados"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:32,260",
+				"to": "00:00:37,340"
+			},
+			"offsets": {
+				"from": 32260,
+				"to": 37340
+			},
+			"text": " para um desenvolvedor lá da Palantir para ele testar um bug ou para explicar alguma necessidade"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:37,340",
+				"to": "00:00:39,620"
+			},
+			"offsets": {
+				"from": 37340,
+				"to": 39620
+			},
+			"text": " sem violar uma lei de segurança nacional."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:39,800",
+				"to": "00:00:44,580"
+			},
+			"offsets": {
+				"from": 39800,
+				"to": 44580
+			},
+			"text": " Então, isso tornava o ciclo de desenvolvimento de produtos tradicional praticamente inútil"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:44,580",
+				"to": "00:00:45,360"
+			},
+			"offsets": {
+				"from": 44580,
+				"to": 45360
+			},
+			"text": " para o caso deles."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:45,540",
+				"to": "00:00:48,600"
+			},
+			"offsets": {
+				"from": 45540,
+				"to": 48600
+			},
+			"text": " E foi aí que a Palantir adotou uma abordagem um pouco incomum."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:48,720",
+				"to": "00:00:53,460"
+			},
+			"offsets": {
+				"from": 48720,
+				"to": 53460
+			},
+			"text": " Em vez de só perguntar para os clientes o que eles queriam, o que eles precisavam, a Palantir"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:53,460",
+				"to": "00:00:58,080"
+			},
+			"offsets": {
+				"from": 53460,
+				"to": 58080
+			},
+			"text": " deu um jeito de inserir esses engenheiros no ambiente e no dia a dia dos seus clientes."
+		},
+		{
+			"timestamps": {
+				"from": "00:00:58,080",
+				"to": "00:01:02,700"
+			},
+			"offsets": {
+				"from": 58080,
+				"to": 62700
+			},
+			"text": " E esses engenheiros viviam o dia a dia da agência de inteligência e eles aprendiam"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:02,700",
+				"to": "00:01:06,580"
+			},
+			"offsets": {
+				"from": 62700,
+				"to": 66580
+			},
+			"text": " observando, testando e desenvolvendo soluções lá em tempo real."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:06,700",
+				"to": "00:01:11,760"
+			},
+			"offsets": {
+				"from": 66700,
+				"to": 71760
+			},
+			"text": " Inclusive, esse termo de forward deployed foi pego de empréstimo da terminologia militar,"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:11,960",
+				"to": "00:01:16,960"
+			},
+			"offsets": {
+				"from": 71960,
+				"to": 76960
+			},
+			"text": " que no contexto militar significa tu posicionar tuas tropas, teus navios, tuas aeronaves"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:16,960",
+				"to": "00:01:22,080"
+			},
+			"offsets": {
+				"from": 76960,
+				"to": 82080
+			},
+			"text": " próximo de um local de conflito ou um local de interesse, um local estratégico de maneira"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:22,080",
+				"to": "00:01:26,000"
+			},
+			"offsets": {
+				"from": 82080,
+				"to": 86000
+			},
+			"text": " permanente, mesmo sem estar acontecendo algum conflito, né?"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:26,060",
+				"to": "00:01:30,720"
+			},
+			"offsets": {
+				"from": 86060,
+				"to": 90720
+			},
+			"text": " Para tu já prevenir esse tipo de coisa e não deixar essas tropas paradas lá na base"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:30,720",
+				"to": "00:01:31,580"
+			},
+			"offsets": {
+				"from": 90720,
+				"to": 91580
+			},
+			"text": " de controle central."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:31,580",
+				"to": "00:01:34,680"
+			},
+			"offsets": {
+				"from": 91580,
+				"to": 94680
+			},
+			"text": " Então, tu deixa literalmente tropas deployed, né?"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:34,800",
+				"to": "00:01:39,080"
+			},
+			"offsets": {
+				"from": 94800,
+				"to": 99080
+			},
+			"text": " Então, tipo, deployadas em certos lugares ali de interesse ou lugares de conflito,"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:39,180",
+				"to": "00:01:43,260"
+			},
+			"offsets": {
+				"from": 99180,
+				"to": 103260
+			},
+			"text": " para elas já ficarem próximas o suficiente nem para mostrar ali força militar, né?"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:43,280",
+				"to": "00:01:48,680"
+			},
+			"offsets": {
+				"from": 103280,
+				"to": 108680
+			},
+			"text": " Para ter um poder de persuasão, mostrando ali que as tuas tropas estão postas ali permanentemente."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:48,800",
+				"to": "00:01:53,380"
+			},
+			"offsets": {
+				"from": 108800,
+				"to": 113380
+			},
+			"text": " Enfim, aí esse modelo de forward deploy engineer começou a dar muito certo para a Palantir,"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:53,500",
+				"to": "00:01:55,760"
+			},
+			"offsets": {
+				"from": 113500,
+				"to": 115760
+			},
+			"text": " justamente por conta do perfil dos clientes deles."
+		},
+		{
+			"timestamps": {
+				"from": "00:01:55,760",
+				"to": "00:01:58,920"
+			},
+			"offsets": {
+				"from": 115760,
+				"to": 118920
+			},
+			"text": " E eles conseguiam pegar esses engenheiros, conseguiu o clearance, né?"
+		},
+		{
+			"timestamps": {
+				"from": "00:01:59,080",
+				"to": "00:02:00,000"
+			},
+			"offsets": {
+				"from": 119080,
+				"to": 120000
+			},
+			"text": " Tipo, a liberação..."
+		}
+	]
+}

@@ -1,0 +1,33 @@
+
+[00:00:00.000 --> 00:00:04.900]   conseguiu entender o que eles precisavam de fato desenvolver para atender as dores e
+[00:00:04.900 --> 00:00:06.400]   os requisitos daquelas agências.
+[00:00:06.560 --> 00:00:10.900]   E aquele modelo de consultoria que a gente está acostumado, tradicional, onde fecha
+[00:00:10.900 --> 00:00:14.980]   o contrato com o cliente, chama o cliente para uma reunião, define os pré-requisitos
+[00:00:14.980 --> 00:00:18.720]   e tudo mais, depois só entrega a primeira versão, acabava não funcionando, porque
+[00:00:18.720 --> 00:00:22.840]   eles nem conseguiam definir os requisitos inicialmente, não tinham dados para testar
+[00:00:22.840 --> 00:00:26.380]   e não conseguiam entender de fato o que aquelas agências de inteligência estavam
+[00:00:26.380 --> 00:00:27.640]   trabalhando lá internamente.
+[00:00:27.640 --> 00:00:32.260]   Então, por exemplo, um analista da CIA não podia compartilhar uma planilha com dados
+[00:00:32.260 --> 00:00:37.340]   para um desenvolvedor lá da Palantir para ele testar um bug ou para explicar alguma necessidade
+[00:00:37.340 --> 00:00:39.620]   sem violar uma lei de segurança nacional.
+[00:00:39.800 --> 00:00:44.580]   Então, isso tornava o ciclo de desenvolvimento de produtos tradicional praticamente inútil
+[00:00:44.580 --> 00:00:45.360]   para o caso deles.
+[00:00:45.540 --> 00:00:48.600]   E foi aí que a Palantir adotou uma abordagem um pouco incomum.
+[00:00:48.720 --> 00:00:53.460]   Em vez de só perguntar para os clientes o que eles queriam, o que eles precisavam, a Palantir
+[00:00:53.460 --> 00:00:58.080]   deu um jeito de inserir esses engenheiros no ambiente e no dia a dia dos seus clientes.
+[00:00:58.080 --> 00:01:02.700]   E esses engenheiros viviam o dia a dia da agência de inteligência e eles aprendiam
+[00:01:02.700 --> 00:01:06.580]   observando, testando e desenvolvendo soluções lá em tempo real.
+[00:01:06.700 --> 00:01:11.760]   Inclusive, esse termo de forward deployed foi pego de empréstimo da terminologia militar,
+[00:01:11.960 --> 00:01:16.960]   que no contexto militar significa tu posicionar tuas tropas, teus navios, tuas aeronaves
+[00:01:16.960 --> 00:01:22.080]   próximo de um local de conflito ou um local de interesse, um local estratégico de maneira
+[00:01:22.080 --> 00:01:26.000]   permanente, mesmo sem estar acontecendo algum conflito, né?
+[00:01:26.060 --> 00:01:30.720]   Para tu já prevenir esse tipo de coisa e não deixar essas tropas paradas lá na base
+[00:01:30.720 --> 00:01:31.580]   de controle central.
+[00:01:31.580 --> 00:01:34.680]   Então, tu deixa literalmente tropas deployed, né?
+[00:01:34.800 --> 00:01:39.080]   Então, tipo, deployadas em certos lugares ali de interesse ou lugares de conflito,
+[00:01:39.180 --> 00:01:43.260]   para elas já ficarem próximas o suficiente nem para mostrar ali força militar, né?
+[00:01:43.280 --> 00:01:48.680]   Para ter um poder de persuasão, mostrando ali que as tuas tropas estão postas ali permanentemente.
+[00:01:48.800 --> 00:01:53.380]   Enfim, aí esse modelo de forward deploy engineer começou a dar muito certo para a Palantir,
+[00:01:53.500 --> 00:01:55.760]   justamente por conta do perfil dos clientes deles.
+[00:01:55.760 --> 00:01:58.920]   E eles conseguiam pegar esses engenheiros, conseguiu o clearance, né?
+[00:01:59.080 --> 00:02:00.000]   Tipo, a liberação...

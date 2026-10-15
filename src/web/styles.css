@@ -1,0 +1,277 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+/* Dark mode follows the `.dark` class on <html>, set from the header toggle, not the OS media query. */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Latin subsets only, declared here because the bundler drops the packages' own `format()` hint. */
+@font-face { font-family: "Bricolage Grotesque Variable"; font-style: normal; font-display: swap; font-weight: 200 800; src: url("../../node_modules/@fontsource-variable/bricolage-grotesque/files/bricolage-grotesque-latin-wght-normal.woff2") format("woff2"); }
+@font-face { font-family: "Hanken Grotesk Variable"; font-style: normal; font-display: swap; font-weight: 100 900; src: url("../../node_modules/@fontsource-variable/hanken-grotesk/files/hanken-grotesk-latin-wght-normal.woff2") format("woff2"); }
+@font-face { font-family: "Newsreader Variable"; font-style: normal; font-display: swap; font-weight: 200 800; src: url("../../node_modules/@fontsource-variable/newsreader/files/newsreader-latin-wght-normal.woff2") format("woff2"); }
+@font-face { font-family: "Newsreader Variable"; font-style: italic; font-display: swap; font-weight: 200 800; src: url("../../node_modules/@fontsource-variable/newsreader/files/newsreader-latin-wght-italic.woff2") format("woff2"); }
+@font-face { font-family: "JetBrains Mono Variable"; font-style: normal; font-display: swap; font-weight: 100 800; src: url("../../node_modules/@fontsource-variable/jetbrains-mono/files/jetbrains-mono-latin-wght-normal.woff2") format("woff2"); }
+
+:root {
+  --radius: 0.875rem;
+  /* Paper, ink and one highlighter. The highlighter is a fill, never a text color. */
+  --background: #f4f5f0;
+  --foreground: #11150f;
+  --card: #ffffff;
+  --card-foreground: #11150f;
+  --popover: #ffffff;
+  --popover-foreground: #11150f;
+  --primary: #11150f;
+  --primary-foreground: #ffffff;
+  --secondary: #eceee6;
+  --secondary-foreground: #11150f;
+  --muted: #eef0e9;
+  --muted-foreground: #666d61;
+  --accent: #eceee6;
+  --accent-foreground: #11150f;
+  --destructive: #c8372f;
+  --border: #e2e5dc;
+  --input: #d3d7cb;
+  --ring: #0b5d45;
+  --marker: #d9f65a;
+  --marker-soft: #f4fbd4;
+  --pine: #0b5d45;
+  /* Ink stays dark in both themes: text on the highlighter, the logo tile, terminal logs. */
+  --ink: #11150f;
+  --surface-subtle: #fafbf7;
+  --track: #e6e9e0;
+  --segment: #dfe3d8;
+  --cancelled: #b6bbae;
+  --quote: #3d4439;
+  --positive-soft: #e3f4e3;
+  --positive-foreground: #0b5c0b;
+  --danger-soft: #fbe6e4;
+  --danger-border: #f0c4bf;
+  --danger-foreground: #8a2019;
+  /* Charts: validated with the dataviz palette checker against the white card surface. */
+  --chart-read: #12956b;
+  --chart-watch: #c9cec2;
+  --chart-output: #2a78d6;
+  --stage-download: #2a78d6;
+  --stage-transcription: #eb6834;
+  --stage-article: #1baf7a;
+  --stage-delivery: #eda100;
+  --grid: #e9ece3;
+  --axis: #c9cec2;
+  --cursor: rgb(17 21 15 / 0.04);
+  --good: #0ca30c;
+  --warning: #fab219;
+  --critical: #d03b3b;
+}
+
+/* Ink paper: the same highlighter, on a dark sheet. */
+.dark {
+  color-scheme: dark;
+  --background: #0f120d;
+  --foreground: #e9ece3;
+  --card: #171b15;
+  --card-foreground: #e9ece3;
+  --popover: #1c2119;
+  --popover-foreground: #e9ece3;
+  --primary: #e9ece3;
+  --primary-foreground: #11150f;
+  --secondary: #222820;
+  --secondary-foreground: #e9ece3;
+  --muted: #20251d;
+  --muted-foreground: #9ba394;
+  --accent: #222820;
+  --accent-foreground: #e9ece3;
+  --destructive: #ee6158;
+  --border: #2a3027;
+  --input: #3a4136;
+  --ring: #5fd3a6;
+  --marker-soft: #242c10;
+  --pine: #6fd9ae;
+  --surface-subtle: #1c2119;
+  --track: #252b22;
+  --segment: #30372d;
+  --cancelled: #565e51;
+  --quote: #c3c9bb;
+  --positive-soft: #16301a;
+  --positive-foreground: #8ddd94;
+  --danger-soft: #3a1815;
+  --danger-border: #5e2722;
+  --danger-foreground: #f4a59e;
+  --chart-read: #1fb582;
+  --chart-watch: #4b5346;
+  --chart-output: #4d94ec;
+  --grid: #242a21;
+  --axis: #3f473b;
+  --cursor: rgb(233 236 227 / 0.05);
+  --good: #36c236;
+  --critical: #e5544c;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-marker: var(--marker);
+  --color-marker-soft: var(--marker-soft);
+  --color-pine: var(--pine);
+  --color-ink: var(--ink);
+  --color-surface-subtle: var(--surface-subtle);
+  --color-track: var(--track);
+  --color-segment: var(--segment);
+  --color-cancelled: var(--cancelled);
+  --color-positive-soft: var(--positive-soft);
+  --color-positive-foreground: var(--positive-foreground);
+  --color-danger-soft: var(--danger-soft);
+  --color-danger-border: var(--danger-border);
+  --color-danger-foreground: var(--danger-foreground);
+  --color-good: var(--good);
+  --color-warning: var(--warning);
+  --color-critical: var(--critical);
+  --radius-sm: calc(var(--radius) - 6px);
+  --radius-md: calc(var(--radius) - 4px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 6px);
+  --font-sans: "Hanken Grotesk Variable", system-ui, sans-serif;
+  --font-display: "Bricolage Grotesque Variable", "Hanken Grotesk Variable", system-ui, sans-serif;
+  --font-serif: "Newsreader Variable", Georgia, serif;
+  --font-mono: "JetBrains Mono Variable", ui-monospace, monospace;
+  --shadow-card: 0 1px 0 rgb(17 21 15 / 0.03), 0 8px 24px -16px rgb(17 21 15 / 0.12);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-background font-sans text-foreground antialiased;
+    font-feature-settings: "ss01";
+  }
+  ::selection {
+    background: var(--marker);
+    color: var(--ink);
+  }
+}
+
+/* The highlighter stroke: a slightly uneven band behind the words, like a real marker. */
+.mark {
+  background: linear-gradient(100deg, transparent 0.5%, var(--marker) 2.5%, var(--marker) 97%, transparent 99.5%) no-repeat 0 78% / 100% 62%;
+  border-radius: 0.2em 0.5em 0.25em 0.45em;
+  padding: 0 0.18em;
+  margin: 0 -0.08em;
+  color: var(--ink);
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+/* On dark paper the ink text needs the whole band behind it, not just the lower stroke. */
+.dark .mark {
+  background-position: 0 60%;
+  background-size: 100% 92%;
+}
+
+/* The ruler of a video scrubber: one tick per unit, drawn once and reused wherever time is shown as length. */
+.ruler {
+  background-image: repeating-linear-gradient(90deg, color-mix(in srgb, var(--ruler, var(--foreground)) 22%, transparent) 0 1px, transparent 1px 100%);
+  background-size: var(--tick, 2.5%) 100%;
+}
+
+@keyframes flow {
+  to {
+    background-position: 16px 0;
+  }
+}
+.flowing {
+  background-image: repeating-linear-gradient(90deg, var(--foreground) 0 6px, transparent 6px 16px);
+  background-size: 16px 100%;
+  animation: flow 0.9s linear infinite;
+}
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+}
+.rise {
+  animation: rise 0.5s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+@keyframes grow {
+  from {
+    transform: scaleX(0);
+  }
+}
+.grow {
+  transform-origin: left;
+  animation: grow 0.9s cubic-bezier(0.2, 0.7, 0.2, 1) 0.15s both;
+}
+@media (prefers-reduced-motion: reduce) {
+  .flowing,
+  .rise,
+  .grow {
+    animation: none;
+  }
+}
+
+/* The Article, set for reading. */
+.prose-article {
+  font-family: var(--font-serif);
+  font-size: 1.1875rem;
+  line-height: 1.7;
+  color: var(--foreground);
+}
+.prose-article p { margin-block: 0 1.1em; }
+.prose-article h1, .prose-article h2, .prose-article h3, .prose-article h4, .prose-article h5, .prose-article h6 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  line-height: 1.25;
+  margin: 2.2em 0 0.6em;
+  font-size: 1.5rem;
+  scroll-margin-top: 6rem;
+  text-wrap: balance;
+}
+.prose-article h3, .prose-article h4, .prose-article h5, .prose-article h6 { font-size: 1.2rem; }
+.prose-article > :first-child { margin-top: 0; }
+.prose-article ul, .prose-article ol { margin: 0 0 1.1em; padding-left: 1.4em; }
+.prose-article ul { list-style: disc; }
+.prose-article ol { list-style: decimal; }
+.prose-article li { margin-bottom: 0.45em; padding-left: 0.2em; }
+.prose-article li::marker { color: var(--muted-foreground); }
+.prose-article a { color: var(--pine); text-decoration: underline; text-underline-offset: 3px; }
+.prose-article strong { font-weight: 650; }
+.prose-article em { font-style: italic; }
+.prose-article code { font-family: var(--font-mono); font-size: 0.82em; background: var(--muted); padding: 0.1em 0.35em; border-radius: 0.35em; }
+.prose-article blockquote { margin: 0 0 1.1em; padding-left: 1em; border-left: 3px solid var(--marker); font-style: italic; color: var(--quote); }
+.prose-article a.timecode {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0;
+  text-decoration: none;
+  white-space: nowrap;
+  vertical-align: middle;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 0.2rem 0.55rem;
+  margin-left: 0.35rem;
+  transition: background 0.15s;
+}
+.prose-article a.timecode:hover { background: var(--marker); border-color: var(--marker); color: var(--ink); }
+.prose-summary { font-size: 1.0625rem; line-height: 1.6; }
+.prose-summary ul { margin-bottom: 0; }
+.prose-summary li:last-child { margin-bottom: 0; }

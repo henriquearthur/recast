@@ -1,0 +1,12 @@
+[Unit]
+Description=Deploy Recast from origin/main
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+Environment="PATH=@TOOL_PATH@"
+Environment="RECAST_DEPLOY_DIR=@DEPLOY_DIR@"
+EnvironmentFile=-%h/.config/recast/recast.env
+ExecStart=/bin/bash "@PUBLISHER@"
+TimeoutStartSec=15min

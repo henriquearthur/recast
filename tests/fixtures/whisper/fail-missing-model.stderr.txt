@@ -1,0 +1,3 @@
+whisper_init_from_file_with_params_no_state: loading model from '/nope.bin'
+whisper_init_from_file_with_params_no_state: failed to open '/nope.bin'
+error: failed to initialize whisper context
