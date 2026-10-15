@@ -20,6 +20,10 @@ Describe the problem, resulting behavior, and verification in the pull request. 
 
 Keep credentials, personal paths, browser cookies, and runtime data outside commits.
 
+## Website
+
+The project website is a static page in `site/`, published to GitHub Pages by `.github/workflows/pages.yml` when it changes on `main`. It reuses the README screenshot, copied from `docs/images/recast.webp` at deploy time. To preview it, copy that image into `site/` and serve the folder, for example with `python3 -m http.server --directory site`.
+
 ## Interface translations
 
 Write interface copy and application-owned API diagnostics in English, through `t()` from `src/web/lib/i18n.ts` in the interface. English source messages are the English catalog; add the Brazilian Portuguese translation to `src/locales/pt-BR.json`, which the interface and e-mails share. Use numbered placeholders (`{0}`, `{1}`) for values, keeping the same placeholders in each language. External diagnostics retain their original text.

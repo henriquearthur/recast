@@ -17,3 +17,6 @@ cookies*.txt
 *.sqlite-*
 *.sqlite3
 *.sqlite3-*
+
+# Copied from docs/images by the Pages workflow.
+site/recast.webp
