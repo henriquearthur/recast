@@ -36,6 +36,19 @@ Each video goes through these four stages in order. Failed stages are retried au
   - **Codex**: a ChatGPT plan that includes Codex, or an OpenAI API key.
 - For e-mail delivery, a Gmail account with an [app password](https://support.google.com/accounts/answer/185833), or any other SMTP server. E-mail is optional; articles are always readable in the browser.
 
+## Quick start with an AI agent
+
+The fastest way to get Recast running is to ask a coding agent, such as [Claude Code](https://claude.com/claude-code) or [Codex](https://developers.openai.com/codex/cli), to install it for you. Open the agent on the machine that will run Recast and paste:
+
+```text
+Install and configure Recast (https://github.com/henriquearthur/recast) on this
+machine, following its README. Ask me which AI provider I want to use and whether
+I want e-mail delivery, and prefer Docker if it is available. When it is running,
+check that http://localhost:4280/api/health reports no problems.
+```
+
+The agent runs commands on your machine, so review what it proposes before approving. When it finishes, open <http://localhost:4280> and continue with [first steps](#first-steps).
+
 ## Quick start with Docker
 
 The Docker image includes every tool Recast needs. You only need [Docker](https://docs.docker.com/get-started/get-docker/) with Compose.
