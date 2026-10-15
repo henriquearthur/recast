@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Recast: read YouTube videos instead of watching them</title>
+    <meta name="description" content="Recast follows the YouTube channels you choose, transcribes each new video on your own machine, and has your AI provider write it up as an article. Self-hosted and open source." />
+    <meta name="theme-color" content="#f4f5f0" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0f120d" media="(prefers-color-scheme: dark)" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Recast: read YouTube videos instead of watching them" />
+    <meta property="og:description" content="Self-hosted. Follows the channels you choose, transcribes on your machine, and sends you an article." />
+    <meta property="og:image" content="https://henriquearthur.github.io/recast/recast.webp" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%2311150f'/%3E%3Cg stroke='%23d9f65a' stroke-width='2.6' stroke-linecap='round'%3E%3Cpath d='M10 9.5h3M10 13.8h8M10 18.2h8M10 22.5h3'/%3E%3Cpath d='M10 16h13'/%3E%3C/g%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Hanken+Grotesk:wght@400..700&family=JetBrains+Mono:wght@400..600&family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400&display=swap" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+
+    <header class="top wrap">
+      <a class="brand" href="./" aria-label="Recast home">
+        <svg class="logo" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="9" /><path d="M10 9.5h3M10 13.8h8M10 18.2h8M10 22.5h3M10 16h13" /></svg>
+        Recast
+      </a>
+      <nav aria-label="Main">
+        <a href="#how">How it works</a>
+        <a href="#install">Install</a>
+        <a href="https://github.com/henriquearthur/recast">GitHub</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero wrap">
+        <div class="hero-copy">
+          <p class="eyebrow">Open source · Self-hosted · MIT</p>
+          <h1>Turn YouTube videos into articles you can <mark>read</mark> instead of watch.</h1>
+          <p class="lede">Recast follows the channels you choose. When one of them publishes, it transcribes the video on your own machine, has your AI provider write an article from it, and sends it to your inbox.</p>
+          <div class="actions">
+            <a class="btn btn-primary" href="#install">Install Recast</a>
+            <a class="btn" href="https://github.com/henriquearthur/recast">View on GitHub</a>
+          </div>
+        </div>
+
+        <!-- A sample article, drawn the way the app draws it. -->
+        <figure class="sample" aria-label="Example: a 38-minute video turned into a 9-minute article">
+          <div class="sample-video">
+            <div class="thumb" aria-hidden="true"><span>38:02</span></div>
+            <div>
+              <p class="sample-channel">Field Notes · 2 h ago</p>
+              <p class="sample-title">Why your sourdough starter keeps dying</p>
+            </div>
+          </div>
+
+          <div class="ledger">
+            <div class="ledger-row">
+              <span class="ledger-label">Video</span>
+              <span class="bar"><span class="bar-fill bar-video"></span></span>
+              <span class="ledger-value">38 min</span>
+            </div>
+            <div class="ledger-row">
+              <span class="ledger-label">Article</span>
+              <span class="bar"><span class="bar-fill bar-read"></span></span>
+              <span class="ledger-value"><span data-count>9</span> min</span>
+            </div>
+          </div>
+
+          <div class="tldr">
+            <p class="eyebrow">TL;DR · The essentials</p>
+            <ul>
+              <li>Most starters die from a feeding ratio that is too low for the room’s temperature, not from bad flour.</li>
+              <li>Discarding before each feed keeps the acidity in check; skipping it slows the yeast down.</li>
+            </ul>
+          </div>
+
+          <ol class="toc" aria-label="Sections, linked to the moment of the video they cover">
+            <li><span>What a starter actually is</span><time>00:00</time></li>
+            <li><span>Temperature changes everything</span><time>06:14</time></li>
+            <li><span>The feeding ratio</span><time>15:40</time></li>
+            <li><span>Reviving a neglected jar</span><time>27:05</time></li>
+          </ol>
+        </figure>
+      </section>
+
+      <section id="how" class="how wrap" aria-labelledby="how-title">
+        <h2 id="how-title">Four stages, from upload to inbox</h2>
+        <p class="section-lede">Each video goes through these stages in order. Failed stages are retried automatically, and you can follow progress live, retry, cancel, or regenerate an article from the interface.</p>
+        <ol class="stages">
+          <li style="--stage: var(--stage-download)">
+            <h3>Download</h3>
+            <p class="tool">yt-dlp</p>
+            <p>Fetches the audio of each new video. Shorts, livestreams, and members-only videos are skipped.</p>
+          </li>
+          <li style="--stage: var(--stage-transcription)">
+            <h3>Transcription</h3>
+            <p class="tool">whisper.cpp</p>
+            <p>Runs on your machine, on the CPU or on a GPU. The audio never leaves it.</p>
+          </li>
+          <li style="--stage: var(--stage-article)">
+            <h3>Article</h3>
+            <p class="tool">Copilot, Claude, or Codex</p>
+            <p>Writes a summary and sections linked to the moment of the video they cover, in the language you pick.</p>
+          </li>
+          <li style="--stage: var(--stage-delivery)">
+            <h3>Delivery</h3>
+            <p class="tool">E-mail</p>
+            <p>Sends the article to your inbox. Every article is also readable in the browser.</p>
+          </li>
+        </ol>
+      </section>
+
+      <figure class="shot wrap">
+        <img src="./recast.webp" width="1672" height="941" loading="lazy" alt="Recast home page with the latest article, and an article page with its summary, sections, and generation cost" />
+        <figcaption>The home page and an article, with its sections and what it cost to generate.</figcaption>
+      </figure>
+
+      <section class="features wrap" aria-labelledby="features-title">
+        <h2 id="features-title">Yours to run, yours to shape</h2>
+        <dl>
+          <div><dt>Follow channels</dt><dd>Every new video from the channels you follow becomes an article. You can also paste any video link by hand.</dd></div>
+          <div><dt>Write in any language</dt><dd>Articles use the language you pick in Settings, whatever the language of the video.</dd></div>
+          <div><dt>Shape the articles</dt><dd>Set a global prompt, and add instructions for each channel.</dd></div>
+          <div><dt>Bring your own AI provider</dt><dd>GitHub Copilot, Claude with your subscription or an API key, or OpenAI through Codex, with models from each provider’s catalog.</dd></div>
+          <div><dt>Track usage and cost</dt><dd>See the estimated cost per provider, model, and channel, and how much watching time became reading.</dd></div>
+          <div><dt>Run it on one machine</dt><dd>A small Bun server with a web interface and a SQLite database. The interface is in English or Brazilian Portuguese.</dd></div>
+        </dl>
+      </section>
+
+      <section id="install" class="install wrap" aria-labelledby="install-title">
+        <h2 id="install-title">Install it on a machine that stays on</h2>
+        <p class="section-lede">Recast runs on Linux or macOS. You need an account with one AI provider, and, for e-mail delivery, a Gmail app password or any SMTP server.</p>
+
+        <div class="paths">
+          <article class="path">
+            <h3>Ask a coding agent</h3>
+            <p>Open <a href="https://claude.com/claude-code">Claude Code</a>, <a href="https://developers.openai.com/codex/cli">Codex</a>, or another agent on that machine and paste this. Review the commands it proposes before approving them.</p>
+            <div class="code">
+              <pre class="wrap-lines"><code>Install and configure Recast (https://github.com/henriquearthur/recast) on this machine, following its README. Ask me which AI provider I want to use and whether I want e-mail delivery, and prefer Docker if it is available. When it is running, check that http://localhost:4280/api/health reports no problems.</code></pre>
+              <button class="copy" type="button">Copy</button>
+            </div>
+          </article>
+
+          <article class="path">
+            <h3>Run it with Docker</h3>
+            <p>The image includes every tool Recast needs. Set your provider credentials in <code>.env</code> before starting it.</p>
+            <div class="code">
+              <pre><code>git clone https://github.com/henriquearthur/recast.git
+cd recast
+cp deploy/recast.env.example .env
+docker compose up -d</code></pre>
+              <button class="copy" type="button">Copy</button>
+            </div>
+            <p class="aside">The first start downloads the Whisper model, about 1.6 GB. Prefer no Docker? <a href="https://github.com/henriquearthur/recast#install-without-docker">Install without it</a>.</p>
+          </article>
+        </div>
+
+        <p class="then">Then open <code>http://localhost:4280</code>, pick a provider and model in Settings, and paste a video link or follow a channel.</p>
+
+        <p class="warning"><strong>Recast has no login.</strong> To read from your phone, keep it on your home network, a VPN, or a Tailscale tailnet. Never expose it directly to the internet.</p>
+      </section>
+    </main>
+
+    <footer class="foot wrap">
+      <p>Recast is open source under the <a href="https://github.com/henriquearthur/recast/blob/main/LICENSE">MIT license</a>.</p>
+      <nav aria-label="Project">
+        <a href="https://github.com/henriquearthur/recast#readme">Documentation</a>
+        <a href="https://github.com/henriquearthur/recast/issues">Issues</a>
+        <a href="https://github.com/henriquearthur/recast/blob/main/CONTRIBUTING.md">Contributing</a>
+      </nav>
+    </footer>
+
+    <script>
+      for (const button of document.querySelectorAll(".copy")) {
+        button.addEventListener("click", async () => {
+          try {
+            await navigator.clipboard.writeText(button.previousElementSibling.textContent);
+            button.textContent = "Copied";
+          } catch {
+            button.textContent = "Select and copy";
+          }
+          setTimeout(() => (button.textContent = "Copy"), 2000);
+        });
+      }
+
+      // The article bar starts as long as the video and shrinks to its reading time.
+      const video = 38;
+      const reading = 9;
+      const bar = document.querySelector(".bar-read");
+      const count = document.querySelector("[data-count]");
+      if (!matchMedia("(prefers-reduced-motion: reduce)").matches) {
+        const show = (minutes) => {
+          count.textContent = Math.round(minutes);
+          bar.style.width = `${(minutes / video) * 100}%`;
+        };
+        show(video);
+        setTimeout(() => {
+          let start;
+          const tick = (now) => {
+            start ??= now;
+            const t = Math.min((now - start) / 1400, 1);
+            show(video - (video - reading) * (1 - Math.pow(1 - t, 3)));
+            if (t < 1) requestAnimationFrame(tick);
+          };
+          requestAnimationFrame(tick);
+        }, 700);
+      }
+    </script>
+  </body>
+</html>
